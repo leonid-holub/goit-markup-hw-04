@@ -276,6 +276,9 @@ img {
 }
 
 .thumb-services {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 25px 100px;
 	width: 100%;
 	background-color: var(--secondary-backgroud-color);
@@ -395,12 +398,12 @@ img {
 }
 
 .socials-link:hover,
-.social-link:focus {
+.socials-link:focus {
 	background-color: var(--accent-color);
 }
 
 .socials-link:hover .socials-icon,
-.social-link:focus .socials-icon {
+.socials-link:focus .socials-icon {
 	fill: var(--white);
 }
 
